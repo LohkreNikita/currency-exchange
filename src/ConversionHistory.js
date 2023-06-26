@@ -21,7 +21,6 @@ const ConversionHistory = ({
 
   // delete the row 
   const handleDelete = (index) => {
-    console.log("Index value", index);
     onDelete(index);
   };
 

@@ -72,7 +72,6 @@ function CurrencyConversion(props) {
       .then((res) => res.json())
       .then((data) => {
         setCurrencyOptions([...Object.keys(data.rates)]);
-        // console.log("data from api", [...Object.keys(data.rates)]);
       })
       .catch((err) => console.log("There was an error:" + err));
   }, []);
@@ -96,9 +95,7 @@ function CurrencyConversion(props) {
           };
 
           if(amount !== 0 ){
-
-            props.setConversionHistory((prevHistory) => [newConversion, ...prevHistory]);
-            console.log('storage----->>>',newConversion )
+           props.setConversionHistory((prevHistory) => [newConversion, ...prevHistory]);
           } 
     
         })
@@ -126,7 +123,6 @@ function CurrencyConversion(props) {
         setLowestRate(lowest);
         const high = Math.max(...temp);
         setHighestRate(high)
-        console.log('highest',high)
         const Rates = rates[toCurrency]
         const sum = temp.reduce((acc, rate) => acc + rate, 0);
         const average = sum / temp.length;
