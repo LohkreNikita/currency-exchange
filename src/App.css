@@ -1,0 +1,77 @@
+
+.currencyConversion {
+  background-color: #F2F2F2;
+  padding : 20px 10% 40px;
+  height: 100%;
+  color: #404040;
+}
+ h1 {
+  font-size: 48px;
+  font-family: 'Roboto';
+ }
+
+ .Unbold {
+  font-weight: 100;
+ }
+
+ .compareArrowIcon {
+  background-color: #ffffff;
+  padding: 8px;
+  color: #009688;
+ }
+
+ .currencyResult {
+  color:#94c720 ;
+ }
+
+ .center {
+  text-align: center;
+  font-family: 'Roboto regular';
+ }
+ 
+ .currencyResultText {
+ 
+  align-items: center;
+ }
+
+ .iconColor {
+  color: #009688;
+ }
+
+ .deleteIcon {
+  color: #ff0000;
+ }
+
+
+ .css-19kzrtu {
+  padding: 0% !important;
+
+ }
+
+ .tabStyle{
+  width : 300px;
+ }
+
+ .MuiTableCell-head {
+  color: #8d8d8d !important;
+ }
+
+ .exchangeHistoryTiltle {
+  font-family: 'Roboto Bold 24px';
+ }
+
+ .buttton {
+  font-family: 'Roboto Bold 14px';
+  
+ }
+
+ .deleteButton {
+    color: #c70D38 !important;
+    font-size: "Roboto Bold 14px";
+    margin-left: "20px",
+ }
+
+
+
+
+
